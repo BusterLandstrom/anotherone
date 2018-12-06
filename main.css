@@ -1,0 +1,120 @@
+html{
+    scroll-behavior: smooth;
+}
+main{
+    height: 100%;
+    margin: 0 auto;
+} header{
+    float: left;
+    width: 40%;
+    background-color:rgba(0,200,100,0.5);
+} section{
+    margin-left: 40%;
+    width: 60%;
+    background-color:rgba(0,100,200,0.5);
+} h1 {
+    font-size: 42px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+} .ct{
+    text-align: center;
+} h2{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 3.4em;
+    font-weight: bold;
+} h3{
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+} .section{
+    margin: 0 auto;
+}
+body, html {
+    height: 100%;
+    height: 100%;
+} p{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+} p2{
+    font-size: 5em;
+} .boxes{
+    z-index: 1;
+    width: 70%;
+    margin: 0 auto;
+} #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+} .bg1 {
+    margin-top: -45px;
+    background-image: url("bg.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+} body {
+    margin:0;
+} .navigation nav {
+  display: flex;
+  justify-content: center;
+  
+  background-color: #333333;
+} source{
+}ul {
+    position: fixed;
+    bottom: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: flex;
+    flex-flow: row wrap;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+} .dropbtn {
+    background-color: #333333;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+} .dropup {
+    position: relative;
+    display: inline-block;
+} .dropup-content {
+    display: none;
+    position: fixed;
+    bottom: 50px;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+} .dropup-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+} .dropup-content a:hover {
+    background-color: #ddd
+} .dropup:hover .dropup-content {
+    display: block;
+} .dropup:hover .dropbtn {
+    background-color: #111;
+} 
